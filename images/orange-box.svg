@@ -1,0 +1,8 @@
+<svg
+    id="orangeBox"
+    width="81"
+    height="81"
+    xmlns="http://www.w3.org/2000/svg"
+>
+    <rect fill="orange" width="100%" height="100%" />
+</svg>

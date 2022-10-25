@@ -4,13 +4,16 @@ html {
   font-family: "Noto Sans SC", system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
-  background-color: aliceblue;
+  background-color: antiquewhite;
 }
 body {
   width: 600px;
   margin: 0 auto;
   padding: 0 20px 20px 20px;
-  border: 5px solid black;
+  border: 1px solid black;
+}
+svg {
+  border: 1px solid black;
 }
 h1 {
   margin: 0;
@@ -19,12 +22,22 @@ h1 {
   text-align: center;
   text-shadow: 3px 3px 8px black;
 }
+.test-box {
+  width: 48px;
+  height: 64px;
+  background-color: cadetblue;
+  /* background-image: url("images/orange-box.svg"); */
+  padding: 4px;
+  margin: 4px;
+  border: 30px solid blue;
+  border-image: url("/images/selected-border.svg") 30 / 30px / 10px round;
+}
 p,
 li {
   line-height: 2;
   letter-spacing: 1px;
 }
 img {
-    display: block;
-    margin: 0 auto;
+  display: block;
+  margin: 0 auto;
 }
